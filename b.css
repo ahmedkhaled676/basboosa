@@ -1,0 +1,14 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden; /* لمنع التمرير */
+}
+
+img {
+    width: 100vw;  /* جعل العرض يملأ الشاشة بالكامل */
+    height: 100vh; /* جعل الارتفاع يملأ الشاشة بالكامل */
+    object-fit: cover; /* جعل الصورة تغطي الصفحة بالكامل */
+    display: block;
+}
